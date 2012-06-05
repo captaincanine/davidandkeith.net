@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>David and Keith are getting married.</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We're getting married at the Angel Orensanz on November 24th, 2012">
+    <meta name="author" content="Keith Marran">
+
+    <!-- Le styles -->
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style>
+    
+      html  { height: 100%; }
+    
+      body {
+        background:   #99bddb;
+        height: 100%;
+      }
+      
+      .container  { margin: 0 auto; padding: 0; width: 960px; height: 100%; background: url('/images/blue-background.png') repeat-y; }
+      .row        { margin-left: -10px; }
+      .block      { margin: 24px 24px 12px; }
+      
+      .column .block { color: #fefefe; }     
+      
+      h1          { font-size: 24px; font-family: 'Lato', serif; text-align: center; }
+      h2          { font-family: 'Lato', serif; }
+
+      #rsvp-form    { margin-top: 0; top: 200px; height: 400px; overflow: auto; }
+
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/bootstrap/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/bootstrap/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/bootstrap/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/bootstrap/ico/apple-touch-icon-57-precomposed.png">
+    
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="https://marran.pandaform.com/javascripts/embed.js"></script>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+ 
+    <script language="javascript">
+    
+      function showRSVPForm() {
+        $('#rsvp-form').modal('show');    
+      }
+    
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div id="left-column" class="span3 column">
+        
+          <div class="block">
+            <h2>The Venue</h2>
+          </div>
+        
+          <div class="block">
+            <h2>The Band</h2>
+          </div>
+        
+        </div>
+        <div id="right-column" class="span6">
+        
+          <div id="rsvp-form" class="modal hide fade">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">×</button>
+              <h3>R.S.V.P.</h3>
+            </div>
+            <script type="text/javascript">EmbeddedForm({"src": "https://marran.pandaform.com/embedded/ysayuh/new", "domId": "panda-form", "width": "500px" });</script>
+          </div>
+  
+          <div class="block">
+            <p align="center"><img src="/images/david-and-keith.png" /></p>
+            <h1>David and Keith are Getting Married</h1>
+          </div>
+
+        </div>
+        <div id="left-column" class="span3 column">
+
+          <div class="block">
+            <h2>Hotel Info</h2>
+          </div>
+        
+          <div class="block">
+            <h2>R.S.V.P.</h2>
+            <p><a data-toggle="modal" href="#rsvp-form">R.S.V.P. on the website</a>.</p>
+          </div>
+
+        </div>
+      </div>
+        
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/bootstrap/js/bootstrap-modal.js"></script>
+
+  </body>
+</html>
